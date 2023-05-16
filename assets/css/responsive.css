@@ -1,0 +1,256 @@
+
+/* RESPONSİVE-HOME */
+
+@media  screen and (min-width: 1366px) {
+    .cards {
+        width: 25%;
+    }
+    .cards-2 {width: 22%;}
+}
+
+@media  screen and (max-width: 1366px)  {
+   .cards {
+    width: 30%;
+    object-fit: fill;
+   } 
+
+   .cards #cardio  { width: 75%;
+
+   }
+
+    .wrapper {
+   flex-wrap: wrap;
+    }
+
+    .card-text-2 {
+        margin-top: 50rem;
+        
+    }
+    
+    .cards-2 {
+        width: 25%;
+    }
+
+}
+
+@media  screen and (max-width : 700px){
+    
+    .head-text { 
+        font-size: 12px;
+    }
+
+    .cards {width: 36%;}
+
+    .cards p {
+        font-size: 14px;
+    }
+
+    .banner-text span {
+        font-size: 35px;
+    }
+
+    .cards-2 {
+        width: 35%;
+    }
+    .cards-2 p {
+        font-size: 12px;
+    }
+
+    .card-text-2 {
+        margin-top: 50rem;
+        
+    }
+  }
+
+@media screen and (max-width:639px) {
+    .card-text-2 {
+        margin-top: 95rem;
+        
+    }
+
+    .cards {
+        width: 75%;
+    }
+ 
+}
+
+ @media screen and (max-width:400px) {
+    
+    .head-img {
+        width: 100vh;
+    }
+
+    .nav-bar ul a {
+        display: block;
+    }
+
+    .cards {
+        width: 100%;
+    }
+
+    .cards p {
+        font-size: 15px;
+    }
+
+    .wrapper-2 {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .cards-2 {
+        width: 100%;
+    }
+
+    .cards-2 p {
+        font-size: 1rem;
+    }
+
+    footer .container {
+        margin-top: 30rem;
+    }
+   .footer-icon ul {
+    font-size: 13px;
+   }
+ }
+
+/* --------------------------------------------------------------- */
+
+ /* RESPONSİVE-ABOUT */
+   
+ @media  screen and (min-width: 1366px) {
+    
+    .banner img {
+
+        object-fit: cover;
+
+    }
+
+    #hr-style {
+        margin-left: 6rem;
+    }
+
+ }  
+
+
+ @media  screen and (max-width: 1366px) {
+    
+    .banner img {
+        height: 50rem;
+        object-fit: cover;
+
+    }
+
+    #hr-style {
+        margin-left: 60px;
+    }
+
+ }  
+
+ @media  screen and (max-width : 700px) {
+    nav {
+        position: static;
+    }
+
+    .banner {
+        height: fit-content;
+    }
+
+    .container-text {
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+    .container-text ul  {
+        list-style-type:circle;
+    }
+
+    .icons ul {
+        list-style-type: none;
+    }
+ }
+  
+ @media screen and (max-width:400px) {
+    nav {
+        position: static;
+    }
+
+    .nav-bar {
+        margin-left: 4rem;
+    }
+    
+    .nav-bar ul a {
+        display: block;
+        margin-bottom: 7px;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .banner img {
+        width: 22rem;
+        margin-left: 6rem;
+    }
+
+    .container-text {
+        margin-top: 2rem;
+        font-size: 1rem;
+        width: 100%;
+    }
+
+
+ }
+    
+/* --------------------------------------------------------------- */
+
+/* RESPONSİVE-CONTACT*/
+    
+@media  screen and (min-width: 1366px) {
+
+    .wrapper-contact {
+        width: 32%;
+    }
+}
+    
+@media  screen and (max-width: 1366px) {
+
+    .wrapper-contact {
+        width: 50%;
+        height: 40.5rem;
+    }
+}
+    
+@media  screen and (max-width: 700px) {
+
+    .ccontainer {
+        flex-wrap: wrap;
+    }
+
+    .wrapper-contact {
+        width: 75%;
+        margin-top: 3rem;
+    }
+    .text-area {
+        margin-top: 2rem;
+    }
+
+    #text-hr {
+        margin-left: 2rem;
+    }
+}
+
+@media  screen and (max-width: 400px) {
+    
+    .nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-hr {
+        margin-left: 1rem;
+    }
+
+    .left-text {
+        margin-top: 10px;
+    }
+}
